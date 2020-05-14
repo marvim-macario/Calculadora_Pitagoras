@@ -41,7 +41,7 @@ const validar = (data) => {
     }
 };
 
-// configurar botao reset
+// configuração do botao reset
 form.addEventListener("reset", () => {
     window.location.href = window.location.href
 })

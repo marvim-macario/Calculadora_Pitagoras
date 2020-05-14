@@ -11,10 +11,13 @@ Clique [aqui](https://marvim1990.github.io/Calculadora_Pitagoras/) para utilizar
  ```
 |--css
     |--style.css   Arquivos de estilo.
-|--images          imagens utilizadas.
+|--images          
 |--js
    |--main.js      lógica e funcionalidades.
 ```
+style.css -Arquivos de estilo.
+images -imagens utilizadasno projeto.
+main.js-lógica e funcionalidades.
 
  ## 3.Outras informações 
  Desenvolvido com javaScript
