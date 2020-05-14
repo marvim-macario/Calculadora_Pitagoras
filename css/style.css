@@ -84,7 +84,7 @@ input {
     height: 30px;
     margin-left: 50px;
     border-radius: 5px;
-    background-color: rgb(18, 214, 198);
+    background-color: #12d6c6;
     border: transparent;
     color: white;
     font-family: 'Share Tech Mono', monospace;
@@ -97,7 +97,7 @@ input {
     height: 30px;
     margin-left: 50px;
     border-radius: 5px;
-    background-color:rgb(199, 54, 180);
+    background-color:#c736b4;
     border: transparent;
     color: white;
     font-family: 'Share Tech Mono', monospace;
