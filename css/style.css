@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    color: white;
+}
+
+main {
+    width: 300px;
+    height: 600px;
+    margin: 20px auto;
+    background-color:#383838;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.titulo h1{
+    margin-top: 30px;
+}
+
+.titulo h3{
+    text-align: end;
+}
+
+.imagem{
+    width: 100%;
+    height: 120px;
+    align-content: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#logo{
+    width: 120px;
+}
+
+
+.display {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    background-color: #282828;
+    text-align: end; 
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+    padding: 5px;
+    color: #fff
+}
+
+.inputs {
+    margin-top: 20px;
+}
+
+input {
+    width: 280px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.botoes {
+    margin-top: 10px;
+    
+}
+
+.botaoCalcula{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color: rgb(18, 214, 198);
+    border: transparent;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+}
+
+.botaoLimpa{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 5px;
+    background-color:rgb(199, 54, 180);
+    border: transparent;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+}

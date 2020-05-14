@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
+    <title>Viajante do Tempo</title>
+</head>
+
+<body>
+
+    <main>
+        <!-- titulo -->
+        <div class="titulo">
+            <h1>Calculadora</h1>
+            <h3>Pitágoras</h3>
+        </div>
+
+        <!-- imagem -->
+        <div class="imagem">
+            <img id="logo" src="images/logo.png" alt="" width="100px" heigth="100px">
+        </div>
+
+        <!-- tela -->
+        <div class="display">
+            <label  id="resultado" class="resultado">Hipotenusa</label>
+        </div>
+
+        <!-- inputs -->
+        <div class="entradas">
+            <form id = form>
+                <div class="inputs">
+                    <div class="input">
+                        <input type="text" name="cat_adj" id=ladoA placeholder="cat_adj">
+                    </div>
+                    <div class="input">
+                        <input type="text" name="cat_op" id=ladoB placeholder="cat_op">
+                    </div>
+                </div>
+
+                <!-- botões -->
+                <div class="botoes">
+                    <button class="botaoCalcula" type="submit">Calcular</button>
+                    <button class="botaoLimpa" type="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
